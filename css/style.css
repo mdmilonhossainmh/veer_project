@@ -1,0 +1,272 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+p,
+a,
+button,
+nav,
+ul,
+li,
+span,
+nav {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* universel end --------------------------------*/
+
+/* head css start */
+.logo a {
+  font-size: 20px;
+  background-color: transparent !important;
+  color: transparent !;
+}
+.nav .barss {
+  display: none;
+}
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+ ul.navbar-nav li.nav-item a.nav-link{
+  margin-left: 25px;
+  font-size: 16pt;
+  text-transform: uppercase !important;
+}
+ul.navbar-nav li.nav-item a.nav-link:hover {
+  color: #31d7ce !important;
+  background-color: white !important;
+ }
+@media (max-width: 992px) {
+  .nav ul li a i {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .nav .barss {
+    display: inline-block;
+    background-color: goldenrod;
+    padding: 5px;
+    height: 50px;
+  }
+  .nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .ulshow {
+    display: none;
+  }
+  .nav ul li a i {
+    display: inline-block;
+  }
+}
+/* head css end */
+
+/* bannar css start */
+
+.bannar {
+  background-image: url(../img/psdd/bannar.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.pdd{
+   padding: 300px 0;
+}
+
+.colorText {
+  color: #31d7ce;
+}
+.bnrBtn{
+ 
+  color: white;
+}
+.bnrBtn:hover{
+  transition: 0.5s;
+  background-color: #31d7ce;
+  color: white;
+}
+/* bannar css end -------------------*/
+
+/* about    start */
+.aboutP {
+  font-size: 13pt;
+  font-weight: 400;
+  
+}
+.Ream_more {
+  background-color: #31d7ce;
+  width: 150px;
+}
+.Ream_more:hover {
+  background-color: #31d7ce;
+  width: 150px;
+}
+/* about    end----------- */
+
+/* service css  start */
+.sectionHeader {
+  font-size: 40pt;
+  font-family: "Open Sans", sans-serif;
+  font-weight:bold !important;
+}
+.sCArd {
+  padding: 35px;
+}
+.sCArd:hover {
+  box-shadow: 0 0 10px 0.25rem rgba(13, 110, 253, 0.25);
+  transition: 0.5s;
+}
+.icon_bg {
+  width: 70px;
+  height: 70px;
+  background-color: #31d7ce !important;
+}
+.serviceH {
+  font-size: 16pt;
+}
+.serviceP {
+  opacity: 0.5;
+  font-size: 14pt;
+}
+/* service css  end----------- */
+
+/*  work css start */
+.workImg {
+}
+.workItems:hover .imgOberlay {
+  background-color: black;
+  opacity: 0.5;
+  height: 100%;
+  transition: 0.5s;
+}
+.imgOberlay ul {
+  opacity: 0;
+  visibility: hidden;
+}
+.workItems:hover .imgOberlay ul {
+  opacity: 1;
+  visibility: visible;
+}
+.imgOberlay ul a {
+  border-radius: 15px;
+  line-height: 0;
+  color: white;
+}
+.imgOberlay ul a:hover{
+  background-color: #31d7ce;
+}
+/* work css end----------- */
+
+/*  countBg   start */
+.countBg {
+  background-image: url(../img/psdd/countebg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.countItem h3 {
+  font-size: 30pt;
+  font-weight: 700;
+  color: white;
+}
+.countItem p {
+  font-size: 15pt;
+  color: white;
+}
+/*  countBg   end----------- */
+
+/*  blog  start */
+.blogItem {
+}
+.blogItem {
+}
+.blogItem p {
+  font-size: 18pt;
+}
+.blogItem div {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15pt;
+  opacity: 0.5;
+}
+
+.blogItem p:last-child {
+  font-size: 14pt;
+}
+/*  blog   end----------- */
+
+/*  cta   start */
+.cta {
+  background-color: #50d18d;
+  color: white;
+}
+.ctah {
+  font-size: 25pt;
+  font-family: 500;
+}
+.ctaBtn {
+  background-color: #27b66a;
+}
+.ctaBtn:hover {
+   background-color: #27b66a !important;
+ }
+/*  cta   end----------- */
+
+/* footer    start */
+.footer * {
+  color: white;
+}
+.footerIconImg {
+  width: 35px;
+  height: 35px;
+}
+.divlinge{
+  width: 2px ;
+  height: 120px;
+}
+/*  footer   end----------- */
+
+/* btnscrol start */
+.btnscrol{
+  position: fixed;
+  right: 40px;
+  bottom: 100px;
+  background-color:#31d7ce ;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 99;
+  border: none;
+  display: none;
+}
+.btnscrol i{
+  font-weight: bolder;
+  font-size: 30px !important;
+}
+/* btnscrol end */
+/* ===================================== */
+
+/*     start */
+
+/*     end----------- */
